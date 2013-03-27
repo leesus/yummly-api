@@ -1,0 +1,24 @@
+{
+  "name": "yummly-api",
+  "version": "0.0.1",
+  "description": "Node.js module for Yummly API",
+  "main": "lib/index.coffee",
+  "scripts": {
+    "test": "mocha -R landing test/index.coffee"
+  },
+  "devDependencies": {
+    "should": ">= 0.0.0"
+  },
+  "dependencies": {
+    "http": "*",
+    "querystring": "*"
+  },
+  "repository": "",
+  "keywords": [
+    "yummly",
+    "api"
+  ],
+  "private": true,
+  "author": "leesus",
+  "license": "BSD"
+}

@@ -8,7 +8,7 @@ Module is not yet published to npm so for the time being just clone the repo to 
 
 Public methods are search() and recipe(), see Yummly API docs for examples of returned data.  Returns JSON.
 
-`
+```
 // Require module
 var Yummly = require('yummly-api');
 
@@ -27,7 +27,7 @@ yummly.search({ q: 'Chicken'}, function(err, statusCode, data) {
 yummly.recipe('Traditional-Abalone-Allrecipes', function(err, statusCode, data){
 	var recipe = JSON.parse(data);
 });
-`
+```
 
 ## Tests
 

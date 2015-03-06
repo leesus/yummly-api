@@ -1,8 +1,8 @@
 Yummly = require "../lib/index"
 should = require "should"
 
-apiKey = "15e9364bf39d57d962748e3be7be168a"
-appId = "3c26c9d2"
+apiKey = "YOUR_API"
+appId = "YOUR_APP_ID"
 
 describe "Yummly API module", ->	
 
